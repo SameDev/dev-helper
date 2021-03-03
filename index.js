@@ -1,9 +1,11 @@
 const os = require('os');
+const { name, version, description, author } = require('./package.json');
 
 let appObj = {
-               nome: "DevHelper",
-               version: "(1.0.0) BETA",
-               test: null
+               name: name,
+               version: version,
+               description: description,
+               author: author
 }
 
 let temporario = "Em Construção Aguarde! ;)";

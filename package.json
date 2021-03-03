@@ -1,0 +1,28 @@
+{
+  "name": "dev-helper",
+  "version": "1.0.0",
+  "description": "Uma Ajuda a Todos os Devs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SameDev/dev-helper.git"
+  },
+  "keywords": [
+    "BotJs",
+    "ajuda",
+    "node",
+    "nodejs"
+  ],
+  "author": "Same_Dev#8394",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SameDev/dev-helper/issues"
+  },
+  "homepage": "https://github.com/SameDev/dev-helper#readme",
+  "dependencies": {
+    "git": "^0.1.5"
+  }
+}

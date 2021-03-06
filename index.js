@@ -1,18 +1,11 @@
-const os = require('os');
-const { name, version, description, author } = require('./package.json');
+const express = require('express')
+const app = express()
+const port = 3000
 
-let appObj = {
-               name: name,
-               version: version,
-               description: description,
-               author: author
-}
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
 
-let temporario = "Em Construção Aguarde! ;)";
-
-function app(message)  {
-               console.log(message);
-               console.table(appObj);
-}
-
-app(temporario);
+app.listen(port, () => {
+  console.log(`Example app listening at http://localhost:${port}`)
+})

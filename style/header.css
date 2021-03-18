@@ -35,3 +35,19 @@ header nav ul li a:hover {
 	text-decoration: underline;
 	text-decoration-color: #f5f5f5;
 }
+
+.sub-header {
+             background-color:  var(--sub-header-bg);
+             padding: 10px 40px;
+             color:  white;
+}
+
+.sub-header ul {
+             list-style: none;
+}
+
+.sub-header ul li {
+             display: inline; 
+             margin: 10px ;
+             font-size: 20px;
+}

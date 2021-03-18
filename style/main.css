@@ -1,0 +1,28 @@
+.content-main {
+             margin-top: 10px;
+             max-width: 760px;
+             display: block;
+             color:  white;
+             text-align: center;
+}
+
+.content-main .text {
+             float: left;
+             padding-top: 50px;
+}
+
+.content-main .text  p {
+             margin-bottom: 20px;
+}
+
+.content-main .text  a {
+             padding: 10px 13px;
+             background-color: var(--header-logo-color);
+             color: white;
+             border-radius: 2px;
+             text-decoration: none;
+}
+
+.content-main img {
+             float: right;
+}

@@ -1,0 +1,5 @@
+.aside {
+             background-color: var(--aside-bg);
+             width: 30%;
+             color:white;
+}
